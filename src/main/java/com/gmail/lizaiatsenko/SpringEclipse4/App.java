@@ -9,6 +9,7 @@ public class App {
 		student.setName("Liza");
 		StudentDAO studentDAO = new StudentDAO();
 		studentDAO.saveStudent(student);
+		// new cooment for git
 		context.close();
 
 	}
